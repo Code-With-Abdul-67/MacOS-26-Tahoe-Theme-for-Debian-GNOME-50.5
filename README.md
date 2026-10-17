@@ -5,23 +5,6 @@
 ![macOS Tahoe GNOME Desktop](images/desktop-preview.png)
 *Debian GNOME 50.5 running the full macOS Tahoe theme — menu bar, dock, liquid glass, and SF Pro fonts*
 
-
----
-
-## Table of Contents
-
-1. [Overview](#overview)
-2. [System Requirements](#system-requirements)
-3. [File Structure](#file-structure)
-4. [Quick Start](#quick-start)
-5. [What the Installer Does](#what-the-installer-does)
-6. [Extensions Installed](#extensions-installed)
-7. [Assets Required](#assets-required)
-8. [GNOME System Settings Applied](#gnome-system-settings-applied)
-9. [Configuration Files](#configuration-files)
-10. [Reverting Everything](#reverting-everything)
-11. [Known Issues & Tips](#known-issues--tips)
-
 ---
 
 ## Overview
@@ -299,7 +282,7 @@ This will:
 
 | Issue | Solution |
 |-------|----------|
-| Liquid Glass is slow/laggy | Reduce `glass-blur-downscale` from 4 → 2 in `settings_custom.json` before installing |
+| Liquid Glass can be slow/laggy | Reduce `glass-blur-downscale` from 4 → 2 in `settings_custom.json` before installing |
 | AppMenu shows empty menus in Electron apps | Known limitation — Discord, Slack, VS Code expose limited menus via D-Bus |
 | Dash2Dock Motion conflicts with another dock | Make sure `dash-to-panel` and `dash2dock-lite` stay in `disabled-extensions` |
 | Shell theme not applying | Ensure `user-theme` extension is enabled and `~/.themes/MacTahoe-Dark-blue` exists |
@@ -322,4 +305,4 @@ This will:
 
 ---
 
-*Generated: 2026-10-17 | System: Debian Testing, GNOME 50.5 | Profile: macOS 26 Tahoe Dark Blue*
+*Generated: 2026-10-17 | System: Debian Testing, GNOME 50.5 | Profile: macOS 26 Tahoe Dark*
