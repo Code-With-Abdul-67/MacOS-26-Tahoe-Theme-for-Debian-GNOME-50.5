@@ -2,8 +2,11 @@
 
 > Make GNOME look and behave as close as possible to **macOS 26 Tahoe** — complete with liquid glass effects, a macOS dock, a menu bar, the genie minimize animation, SF Pro fonts, and matching themes, icons, and cursors.
 
-![macOS Tahoe GNOME Desktop](images/desktop-preview.png)
+![Desktop](images/desktop-preview.png)
 *Debian GNOME 50.5 running the full macOS Tahoe theme — menu bar, dock, liquid glass, and SF Pro fonts*
+
+![Quick Settings](images/quick-settings.png)
+*macOS-style Quick Settings / Control Center panel with liquid glass effect*
 
 ---
 
